@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="CSS\StyleINDEX.css" />
     <Content Include="CSS\StyleSheet1.css" />
+    <Content Include="IMG\dough-943245_640.jpg" />
     <Content Include="IMG\graffiti-681940_640.jpg" />
     <Content Include="IMG\pizza-711662_1280.jpg" />
     <Content Include="packages.config" />
