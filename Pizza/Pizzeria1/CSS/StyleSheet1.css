@@ -1,0 +1,43 @@
+﻿
+body {
+    background: url('../IMG/pizza-711662_1280.jpg') fixed;
+    background-size: cover;
+}
+.logo{
+    margin: 20px;
+    height:100px;
+}
+.navmenu {
+    height:25px;
+    margin-top: 1%;
+    font-size: 16px;
+    font: bold;
+    text-align: center;
+    color: black;
+    background-color: teal;
+    transition: all 1s;
+}
+.navleft{
+    border-radius: 10px 0 0 10px;
+}
+.navright{
+    border-radius: 0 10px 10px 0;
+}
+
+    .navmenu:hover {
+        text-decoration: none;
+        background-color: darkgray;
+    }
+
+.navbutton {
+    background-color: rgba(128, 128, 128,.5);
+    border-color: rgb(128, 128, 128);
+}
+footer{
+    padding:20px 0 0 20px;
+    color:white;
+    margin-top:10%;
+     background-color: rgba( 0,0,0,.7)
+     ;
+}
+
