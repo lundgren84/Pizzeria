@@ -66,12 +66,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\HittahitCSS.css" />
     <Content Include="CSS\StyleINDEX.css" />
     <Content Include="CSS\StyleSheet1.css" />
     <Content Include="IMG\dough-943245_640.jpg" />
     <Content Include="IMG\graffiti-681940_640.jpg" />
     <Content Include="IMG\pizza-711662_1280.jpg" />
     <Content Include="packages.config" />
+    <Content Include="Pages\HittaHit.html" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

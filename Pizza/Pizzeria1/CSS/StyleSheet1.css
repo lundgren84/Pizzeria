@@ -9,8 +9,7 @@ body {
         margin-top: 10%;
         background-color: rgba( 0,0,0,.7);
     }
-      .navmenu {
-        
+      .navmenu {      
         height: 60px;
         margin-top: 1%;
         font-size: 30px;
@@ -20,7 +19,9 @@ body {
         background-color: teal;
         transition: all 1s;
     }
-
+      .navmenuend{
+         visibility:collapse;
+      }
       .logo {
         padding-left:180px;
     
@@ -31,18 +32,21 @@ body {
         padding: 20px;
         height: 100px;
     }
-    .navrow
+  
     .navmenu {
       
         height: 55px;
         margin-top: 1%;
-        font-size: 20px;
+        font-size: 16px;
         font: bold;
         text-align: center;
         color: black;
         background-color: teal;
         transition: all 1s;
     }
+    .navmenuend{
+        visibility:visible;
+      }
 
     .navleft {
         border-radius: 10px 0 0 10px;
@@ -52,7 +56,7 @@ body {
         border-radius: 0 10px 10px 0;
     }
 
-    .navmenu:hover {
+    .navmenuhover:hover {
         text-decoration: none;
         background-color: darkgray;
     }
@@ -63,15 +67,21 @@ body {
     }
 
 }
-@media only screen and (min-width : 1428px) {
- .navmenu {
-    height:25px;
-    margin-top: 1%;
-    font-size: 16px;
-    
-    text-align: center;
-    color: black;
-    background-color: teal;
-    transition: all 1s;
-}
+@media only screen and (min-width : 1224px) {
+
+    .navmenu {
+        height: 55px;
+        margin-top: 1%;
+        font-size: 20px;
+        font: bold;
+        text-align: center;
+        color: black;
+        background-color: teal;
+        transition: all 1s;
+    }
+    footer{
+        position:absolute;
+        bottom:0;
+        width:100%;
+    }
 }
