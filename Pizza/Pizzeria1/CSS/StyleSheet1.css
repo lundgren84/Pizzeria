@@ -3,10 +3,6 @@ body {
     background: url('../IMG/pizza-711662_1280.jpg') fixed;
     background-size: cover;
 }
-/*.logo,.logofig, img{
-    width:100%;
-    height:300px;
-}*/
     footer {
         padding: 20px 0 0 20px;
         color: white;
@@ -24,6 +20,7 @@ body {
         background-color: teal;
         transition: all 1s;
     }
+
       .logo {
         padding-left:180px;
     
@@ -34,12 +31,12 @@ body {
         padding: 20px;
         height: 100px;
     }
-
+    .navrow
     .navmenu {
-        
-        height: 25px;
+      
+        height: 55px;
         margin-top: 1%;
-        font-size: 12px;
+        font-size: 20px;
         font: bold;
         text-align: center;
         color: black;

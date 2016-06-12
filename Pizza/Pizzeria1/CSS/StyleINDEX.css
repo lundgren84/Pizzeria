@@ -1,10 +1,19 @@
 ﻿body {
 }
-.leftside{
-    text-align:center;
-   
-    height:500px;
-    color:white;
-    background-color: rgba( 0,0,0,.7)
+.leftside {
+        text-align: center;
+        font-size: 30px;
+        height: auto;
+        color: white;
+        background-color: rgba( 0,0,0,.7);
+        padding-bottom:20px;
+    }
+@media only screen and (min-width : 1224px) {
+
+    .leftside {
+        text-align: center;
+        font-size: 14px;  
+        color: white;
+        background-color: rgba( 0,0,0,.7);
+    }
 }
-    
