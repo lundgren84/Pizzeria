@@ -1,14 +1,32 @@
 ﻿body {
 }
+footer{
+    position:relative;
+}
+
+.menyh1 h1{
+   padding-left:35%;
+    font-size:80px;
+}
 .leftside {
-    width:100%;
-        text-align: center;
+    
+        padding:20px;
         font-size: 24px;
         height: auto;
         color: white;
         background-color: rgba( 0,0,0,.7);
         padding-bottom:20px;
     }
+.rightside{
+    
+        padding:20px;
+        font-size: 24px;
+        height: auto;
+        color: white;
+        background-color: rgba( 0,0,0,.7);
+        padding-bottom:20px;
+}
+
 @media only screen and (min-width : 992px){
     .leftside {
     
@@ -21,7 +39,7 @@
 @media only screen and (min-width : 1224px) {
 
     .leftside {
-       width:50%;
+      
       margin-top: 10%;
         font-size: 14px;  
        
