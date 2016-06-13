@@ -4,8 +4,11 @@ footer{
     position:relative;
 }
 
+.menyfastnav{
+    font-size:20px;
+}
 .menyh1 h1{
-   padding-left:35%;
+   padding-left:10%;
     font-size:80px;
 }
 .leftside {
