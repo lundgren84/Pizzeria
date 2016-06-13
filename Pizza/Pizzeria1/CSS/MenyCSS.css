@@ -3,7 +3,10 @@
 footer{
     position:relative;
 }
-
+h2{
+    text-align:center;
+      border-bottom:2px solid white;
+}
 .menyfastnav{
     
     font-size:20px;
@@ -17,6 +20,7 @@ footer{
 .menyh1 h1{
    padding-left:10%;
     font-size:80px;
+  
 }
 .leftside {
     
