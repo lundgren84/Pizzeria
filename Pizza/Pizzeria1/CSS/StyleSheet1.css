@@ -3,6 +3,9 @@ body {
     background: url('../IMG/pizza-711662_1280.jpg') fixed;
     background-size: cover;
 }
+#chosen{
+     background-color: rgba(128, 128, 128,.5);
+}
     footer {
         padding: 20px 0 0 20px;
         color: white;
@@ -22,7 +25,7 @@ body {
     }
         .navmenuhover:hover {
         text-decoration: none;
-        background-color: darkgray;
+        background-color: rgba(128, 128, 128,.5);
     }
       .navmenuend{
          visibility:collapse;
