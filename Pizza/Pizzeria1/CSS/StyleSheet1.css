@@ -9,7 +9,7 @@ body {
         margin-top: 10%;
         background-color: rgba( 0,0,0,.7);
     }
-      .navmenu {      
+      .navmenu {   
         height: 60px;
         margin-top: 1%;
         font-size: 30px;
@@ -18,6 +18,11 @@ body {
         color: black;
         background-color: gray;
         transition: all 1s;
+        
+    }
+        .navmenuhover:hover {
+        text-decoration: none;
+        background-color: darkgray;
     }
       .navmenuend{
          visibility:collapse;
@@ -56,10 +61,7 @@ body {
         border-radius: 0 10px 10px 0;
     }
 
-    .navmenuhover:hover {
-        text-decoration: none;
-        background-color: darkgray;
-    }
+  
 
     .navbutton {
         background-color: rgba(128, 128, 128,.5);
@@ -70,13 +72,15 @@ body {
 @media only screen and (min-width : 1224px) {
 
     .navmenu {
-        height: 55px;
-        margin-top: 1%;
+       padding-top:30px;
+
+        height: 60px;
+        margin-top:5%;
         font-size: 20px;
         font: bold;
-        text-align: center;
-        color: black;
-        background-color: gray;
+        text-align:end;
+        color: white;
+        background-color: rgba(0,0,0,.6);
         transition: all 1s;
     }
     footer{
