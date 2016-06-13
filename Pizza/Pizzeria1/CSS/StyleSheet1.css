@@ -16,7 +16,7 @@ body {
         font: bold;
         text-align: center;
         color: black;
-        background-color: teal;
+        background-color: gray;
         transition: all 1s;
     }
       .navmenuend{
@@ -41,7 +41,7 @@ body {
         font: bold;
         text-align: center;
         color: black;
-        background-color: teal;
+        background-color: gray;
         transition: all 1s;
     }
     .navmenuend{
@@ -76,7 +76,7 @@ body {
         font: bold;
         text-align: center;
         color: black;
-        background-color: teal;
+        background-color: gray;
         transition: all 1s;
     }
     footer{

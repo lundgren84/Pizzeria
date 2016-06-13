@@ -5,7 +5,14 @@ footer{
 }
 
 .menyfastnav{
+    
     font-size:20px;
+    list-style:none;
+   
+}
+.menyfastnav a{
+  
+    color:black;
 }
 .menyh1 h1{
    padding-left:10%;
@@ -40,10 +47,15 @@ footer{
     }
 }
 @media only screen and (min-width : 1224px) {
-
+    .menyfastnav{
+    padding-top:130px;
+    font-size:20px;
+    list-style:none;
+   
+}
     .leftside {
       
-      margin-top: 10%;
+      margin-top: 5%;
         font-size: 14px;  
        
         
